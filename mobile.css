@@ -1,0 +1,27 @@
+@media (max-width:576px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .grid-box-1{
+        position: relative;
+    }
+    .quotes{
+        position: absolute;
+        top: 0;
+        left: 50%;
+    }
+}
+
+@media (max-width:1200px){
+    .grid-box-1{
+        position: relative;
+    }
+
+    .quotes{
+        position: absolute;
+        top: 0;
+        left: 50%;
+    }
+}
